@@ -1,3 +1,8 @@
-// var students = [Will, Matt, Natalie, Eldon]
+var students = ["Will", "Matt", "Natalie", "Eldon"];
+let emptyDivs = document.querySelectorAll("div");
 
-var divOne = document.getElementsByTagName('div')[0]
+emptyDivs.forEach(div => {
+    div.textContent = "Hi!";
+});
+
+console.log(emptyDivs);
